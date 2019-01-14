@@ -1,0 +1,18 @@
+{
+  "contentApps": [
+    {
+      "name": "Puzzle",
+      "alias": "puzzle",
+      "weight": 1,
+      "icon": "icon-thumbnails-small",
+      "view": "~/App_Plugins/MediaPuzzle/index.html",
+      "show": [
+        "+media/*"
+      ]
+    }
+  ],
+  "javascript": [
+    "//cdn.jsdelivr.net/phaser/2.5.0/phaser.min.js",
+    "~/App_Plugins/MediaPuzzle/js/mediapuzzle.controller.js"
+  ]
+}
